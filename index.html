@@ -7,5 +7,93 @@
 </head>
 <body>
     
+    
+    
+    <style>
+        *{
+            background-color: #1A1A1C;
+            font-family: 'Inter', sans-serif;
+        }
+        #container{
+            display: flex;
+            justify-content: center;
+            margin: 50px;
+            
+        }
+        input{
+            border: 2px solid #8E8E8E;
+            width: 350px;
+            padding: 10px;
+            color: #FFFFFF;
+            outline: none;
+        }  
+        #panel{
+            padding: 10px 50px;
+        }
+        .btn{
+
+            border:  2px solid #8E8E8E;
+            width: 150px;
+            padding: 10px;
+            color: #FFFFFF;
+            outline: none;
+            margin: 7px;
+        }
+        .btn:hover{
+            cursor: pointer;
+        }
+
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        td{
+            padding: 8px;
+             text-align: -webkit-center;
+             border-bottom: 1px solid #8E8E8E;
+             color: #FFFFFF;
+             font-weight: 300;
+             font-size: 15px;
+             
+        }
+        .image{
+            width: 25px;
+            height : 25px;
+        }
+
+        .symbol{
+            text-transform: uppercase;
+        }
+        .red{
+            color: red;
+        }
+        .green{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="container">
+        <section>
+            <div id="panel">
+                <input type="text"  placeholder="Search By Name or Symbol">
+                <button class="btn">Sort By Mkt Cap</button>
+                <button class="btn">Sort By Percentage</button>
+            </div>
+            <div id="currancyContainer">
+                <table id="input-table">
+                    
+                </table>
+            </div>
+        </section>
+        
+    </div>
+    <Script src="./script.js"></Script>
+</body>
+</html>
+    
 </body>
 </html>
